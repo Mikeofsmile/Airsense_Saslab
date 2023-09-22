@@ -1,0 +1,10 @@
+CMake Error at /home/intonation/esp-idf/components/xtensa/project_include.cmake:18 (message):
+  Internal error, toolchain has not been set correctly by project (or an
+  invalid CMakeCache.txt file has been generated somehow)
+Call Stack (most recent call first):
+  /home/intonation/esp-idf/tools/cmake/build.cmake:400 (include)
+  /home/intonation/esp-idf/tools/cmake/build.cmake:622 (__build_process_project_includes)
+  /home/intonation/esp-idf/tools/cmake/project.cmake:463 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+

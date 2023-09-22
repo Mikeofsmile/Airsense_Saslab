@@ -1,0 +1,6 @@
+{
+     "files.associations": {
+          "sntp_time_sysc.h": "c",
+          "tasks_common.h": "c"
+     }
+}

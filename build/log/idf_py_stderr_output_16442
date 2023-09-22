@@ -1,0 +1,30 @@
+CMake Warning (dev) at /home/intonation/esp-idf/tools/cmake/component.cmake:479 (add_library):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/main/i2cdev.c
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at /home/intonation/esp-idf/tools/cmake/component.cmake:479 (add_library):
+  Cannot find source file:
+
+    /home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/main/mqsensor.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /home/intonation/esp-idf/tools/cmake/component.cmake:479 (add_library):
+  No SOURCES given to target: __idf_main
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

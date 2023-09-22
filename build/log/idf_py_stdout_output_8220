@@ -1,0 +1,10 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig
+-- Compiler supported targets: x86_64-linux-gnu
+
+-- Configuring incomplete, errors occurred!
+See also "/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/build/CMakeFiles/CMakeOutput.log".

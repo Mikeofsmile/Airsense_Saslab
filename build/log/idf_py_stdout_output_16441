@@ -1,0 +1,79 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:22 CONFIG_APP_BUILD_TYPE_ELF_RAM was replaced with CONFIG_APP_BUILD_TYPE_RAM
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:282 CONFIG_MCPWM_ISR_IN_IRAM was replaced with CONFIG_MCPWM_ISR_IRAM_SAFE
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:361 CONFIG_ESP32_DEFAULT_CPU_FREQ_80 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_80
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:362 CONFIG_ESP32_DEFAULT_CPU_FREQ_160 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_160
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:363 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:364 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:365 CONFIG_ESP32_SPIRAM_SUPPORT was replaced with CONFIG_SPIRAM
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:368 CONFIG_ESP32_ULP_COPROC_ENABLED was replaced with CONFIG_ULP_COPROC_ENABLED
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:369 CONFIG_ESP32_ULP_COPROC_RESERVE_MEM was replaced with CONFIG_ULP_COPROC_RESERVE_MEM
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:370 CONFIG_ESP32_DEBUG_OCDAWARE was replaced with CONFIG_ESP_DEBUG_OCDAWARE
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:371 CONFIG_ESP32_BROWNOUT_DET was replaced with CONFIG_ESP_BROWNOUT_DET
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:372 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_0 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_0
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:373 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_1 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_1
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:374 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_2 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_2
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:375 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_3 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_3
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:376 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_4 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_4
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:377 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_5 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_5
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:378 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_6 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_6
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:379 CONFIG_ESP32_BROWNOUT_DET_LVL_SEL_7 was replaced with CONFIG_ESP_BROWNOUT_DET_LVL_SEL_7
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:380 CONFIG_ESP32_BROWNOUT_DET_LVL was replaced with CONFIG_ESP_BROWNOUT_DET_LVL
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:381 CONFIG_ESP32_TIME_SYSCALL_USE_RTC_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC_HRT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:382 CONFIG_ESP32_TIME_SYSCALL_USE_RTC was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_RTC
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:383 CONFIG_ESP32_TIME_SYSCALL_USE_FRC1 was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_HRT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:384 CONFIG_ESP32_TIME_SYSCALL_USE_NONE was replaced with CONFIG_NEWLIB_TIME_SYSCALL_USE_NONE
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:385 CONFIG_ESP32_RTC_CLK_SRC_INT_RC was replaced with CONFIG_RTC_CLK_SRC_INT_RC
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:386 CONFIG_ESP32_RTC_CLK_SRC_EXT_CRYS was replaced with CONFIG_RTC_CLK_SRC_EXT_CRYS
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:387 CONFIG_ESP32_RTC_CLK_SRC_EXT_OSC was replaced with CONFIG_RTC_CLK_SRC_EXT_OSC
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:388 CONFIG_ESP32_RTC_CLK_SRC_INT_8MD256 was replaced with CONFIG_RTC_CLK_SRC_INT_8MD256
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:389 CONFIG_ESP32_RTC_CLK_CAL_CYCLES was replaced with CONFIG_RTC_CLK_CAL_CYCLES
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:390 CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY was replaced with CONFIG_ESP_SLEEP_DEEP_SLEEP_WAKEUP_DELAY
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:391 CONFIG_ESP32_XTAL_FREQ_40 was replaced with CONFIG_XTAL_FREQ_40
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:392 CONFIG_ESP32_XTAL_FREQ_26 was replaced with CONFIG_XTAL_FREQ_26
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:393 CONFIG_ESP32_XTAL_FREQ_AUTO was replaced with CONFIG_XTAL_FREQ_AUTO
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:394 CONFIG_ESP32_XTAL_FREQ was replaced with CONFIG_XTAL_FREQ
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:396 CONFIG_ESP32_NO_BLOBS was replaced with CONFIG_APP_NO_BLOBS
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:397 CONFIG_ESP32_COMPATIBLE_PRE_V2_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V2_1_BOOTLOADERS
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:398 CONFIG_ESP32_COMPATIBLE_PRE_V3_1_BOOTLOADERS was replaced with CONFIG_APP_COMPATIBLE_PRE_V3_1_BOOTLOADERS
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:471 CONFIG_OTA_ALLOW_HTTP was replaced with CONFIG_ESP_HTTPS_OTA_ALLOW_HTTP
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:595 CONFIG_ESP_TASK_WDT was replaced with CONFIG_ESP_TASK_WDT_INIT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:622 CONFIG_ESP32_WIFI_ENABLED was replaced with CONFIG_ESP_WIFI_ENABLED
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:623 CONFIG_ESP32_WIFI_STATIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_STATIC_RX_BUFFER_NUM
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:624 CONFIG_ESP32_WIFI_DYNAMIC_RX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_RX_BUFFER_NUM
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:625 CONFIG_ESP32_WIFI_STATIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_STATIC_TX_BUFFER
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:626 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:627 CONFIG_ESP32_WIFI_TX_BUFFER_TYPE was replaced with CONFIG_ESP_WIFI_TX_BUFFER_TYPE
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:628 CONFIG_ESP32_WIFI_DYNAMIC_TX_BUFFER_NUM was replaced with CONFIG_ESP_WIFI_DYNAMIC_TX_BUFFER_NUM
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:629 CONFIG_ESP32_WIFI_CSI_ENABLED was replaced with CONFIG_ESP_WIFI_CSI_ENABLED
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:630 CONFIG_ESP32_WIFI_AMPDU_TX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_TX_ENABLED
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:631 CONFIG_ESP32_WIFI_TX_BA_WIN was replaced with CONFIG_ESP_WIFI_TX_BA_WIN
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:632 CONFIG_ESP32_WIFI_AMPDU_RX_ENABLED was replaced with CONFIG_ESP_WIFI_AMPDU_RX_ENABLED
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:633 CONFIG_ESP32_WIFI_RX_BA_WIN was replaced with CONFIG_ESP_WIFI_RX_BA_WIN
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:634 CONFIG_ESP32_WIFI_NVS_ENABLED was replaced with CONFIG_ESP_WIFI_NVS_ENABLED
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:635 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_0 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_0
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:636 CONFIG_ESP32_WIFI_TASK_PINNED_TO_CORE_1 was replaced with CONFIG_ESP_WIFI_TASK_PINNED_TO_CORE_1
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:637 CONFIG_ESP32_WIFI_SOFTAP_BEACON_MAX_LEN was replaced with CONFIG_ESP_WIFI_SOFTAP_BEACON_MAX_LEN
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:638 CONFIG_ESP32_WIFI_MGMT_SBUF_NUM was replaced with CONFIG_ESP_WIFI_MGMT_SBUF_NUM
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:639 CONFIG_ESP32_WIFI_IRAM_OPT was replaced with CONFIG_ESP_WIFI_IRAM_OPT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:640 CONFIG_ESP32_WIFI_RX_IRAM_OPT was replaced with CONFIG_ESP_WIFI_RX_IRAM_OPT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:641 CONFIG_ESP32_WIFI_ENABLE_WPA3_SAE was replaced with CONFIG_ESP_WIFI_ENABLE_WPA3_SAE
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:778 CONFIG_HAL_ASSERTION_SILIENT was replaced with CONFIG_HAL_ASSERTION_SILENT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1305 CONFIG_WPA_MBEDTLS_CRYPTO was replaced with CONFIG_ESP_WIFI_MBEDTLS_CRYPTO
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1306 CONFIG_WPA_WAPI_PSK was replaced with CONFIG_ESP_WIFI_WAPI_PSK
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1307 CONFIG_WPA_SUITE_B_192 was replaced with CONFIG_ESP_WIFI_SUITE_B_192
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1308 CONFIG_WPA_DEBUG_PRINT was replaced with CONFIG_ESP_WIFI_DEBUG_PRINT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1309 CONFIG_WPA_TESTING_OPTIONS was replaced with CONFIG_ESP_WIFI_TESTING_OPTIONS
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1310 CONFIG_WPA_WPS_STRICT was replaced with CONFIG_ESP_WIFI_WPS_STRICT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1311 CONFIG_WPA_11KV_SUPPORT was replaced with CONFIG_ESP_WIFI_11KV_SUPPORT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1312 CONFIG_WPA_MBO_SUPPORT was replaced with CONFIG_ESP_WIFI_MBO_SUPPORT
+/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/sdkconfig:1313 CONFIG_WPA_DPP_SUPPORT was replaced with CONFIG_ESP_WIFI_DPP_SUPPORT
+-- Compiler supported targets: x86_64-linux-gnu
+
+-- Configuring incomplete, errors occurred!
+See also "/home/intonation/esp-idf/examples/get-started/Airsense_Sanslab/build/CMakeFiles/CMakeOutput.log".
